@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <title>Document</title>
+    <script type="text/javascript">
+    function chgimg(x)
+    {
+        i1.src=x;
+    }
+    </script>
+</head>
+<body>
+   <div class="decor">
+        <marquee behaviour="scroll" direction="right" loop="infinite">
+          <img src="decoration.png" width="500" height="100" alt="celebration" />
+          <img src="decoration.png" width="500" height="100" alt="celebration" />
+          <img src="decoration.png" width="500" height="100" alt="celebration" />
+        </marquee>
+    </div>
+    <div class="row">
+        <div class="col1">
+            <img id="i1" src="l1.png" alt="slow moves" width="500" height="400">
+            <h1 class="first">TCS Team Welcomes Stephan Fanenbruck</h1>
+            <h2 class="second">CLICK THE BUTTON TO LIGHT THE KUTHUVILLAKU</h2>
+            <br>
+            <input type="button" value="STEPHAN" onclick="chgimg('l2.gif')" />
+            <input type="button" value="SHAILESH" onclick="chgimg('l3.gif')" />
+            <input type="button" value="UMA" onclick="chgimg('l4.gif')" />
+            <input type="reset" value="RESET" onclick="chgimg('l1.png')" />
+        </div>
+        <!-- <div class="col2"> -->
+            <!-- <img src="petals.gif" alt="slow moves" width="700" height="350"> -->
+        <div class ="slideshow">
+            <marquee behaviour="scroll" direction="right" loop="infinite">
+                <img src="palace.jpg" width="400" height="400">
+                <img src="char minar.jpg" width="400" height="400">
+                <img src="gateway.jpg" width="400" height="400">
+                <img src="brown.jpg" width="400" height="400">
+                <img src="humayun.jpg" width="400" height="400">
+                <img src="kerala.jpg" width="400" height="400">
+                <img src="lotustemple.jpg" width="400" height="400"> 
+                <img src="taj mahal.jpg" width="400" height="400">
+                <img src="victoria.jpg" width="400" height="400">
+            </marquee>
+        </div>  
+    </div>
+</body>
+</html>
+
